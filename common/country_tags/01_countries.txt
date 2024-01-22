@@ -1,0 +1,3 @@
+
+INC = "countries/Asian.txt"
+WIF = "countries/African.txt" #Amadawa

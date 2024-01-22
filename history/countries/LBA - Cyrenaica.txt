@@ -1,0 +1,60 @@
+﻿capital = 451
+oob = "LBA"
+set_research_slots = 1
+set_convoys = 20
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	camelry = 1
+}
+
+add_ideas = {
+	LBA_home_of_the_Senussi
+	LBA_ottoman_naval_penetration
+	isolation
+	limited_exports
+	limited_conscription
+}
+
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 19
+	paternal_autocrat = 58
+	national_populist = 23
+}
+
+recruit_character = LBA_az_zubayr_bin_ahmad_as_sharif
+recruit_character = LBA_senussi_regency_council
+recruit_character = LBA_idris
+recruit_character = LBA_umar_al_mukhtar
+
+### Corps Commanders ###
+recruit_character = LBA_yousaf_borahil_al_msmare
+recruit_character = LBA_omar_shegewi
+
+### Admirals ###
+recruit_character = LBA_omar_faiek_shennib
+
+### Advisors ###
+recruit_character = LBA_senussi_cartographers
+recruit_character = LBA_senussi_spy_ring
+recruit_character = LBA_well_armed_bannermen
+recruit_character = LBA_pliant_authorities
+recruit_character = LBA_as_siddig_al_mutassir
+recruit_character = LBA_yousef_borheil_al_massari
+recruit_character = LBA_senussi_military_council

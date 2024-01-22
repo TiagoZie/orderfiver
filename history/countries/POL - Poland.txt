@@ -1,0 +1,248 @@
+﻿capital = 10
+oob = "POL"
+set_research_slots = 3
+set_stability = 0.65
+set_war_support = 0.16
+starting_train_buffer = 2
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Industry ###
+	fuel_silos = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "POL_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "POL_air_legacy"
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		CAS1 = 1
+		early_bomber = 1
+		tactical_bomber1 = 1
+	}
+}
+
+
+set_politics = {
+	ruling_party = market_liberal
+	last_election = "1934.5.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 8
+	radical_socialist = 6
+	social_democrat = 18
+	social_liberal = 17
+	market_liberal = 24
+	social_conservative = 14
+	authoritarian_democrat = 6
+	paternal_autocrat = 0
+	national_populist = 7
+}
+
+### Ideas ###
+add_ideas = {
+	#Laws
+	volunteer_only
+
+	#Ideas
+	POL_german_control2
+	POL_austrian_assets2
+	POL_issues_at_hand
+	POL_polarised_society_1
+	POL_professional_army_1
+
+}
+
+### Country Leaders ###
+recruit_character = POL_august_iv
+recruit_character = POL_feliks_kon
+recruit_character = POL_kazimierz_zakrzewski
+recruit_character = POL_zygmunt_zaremba
+recruit_character = POL_leah_feldman
+recruit_character = POL_jerzy_cseszejko_sochacki
+recruit_character = POL_norbert_barlicki
+recruit_character = POL_stanislaw_wojciechowski
+recruit_character = POL_jan_woznicki
+recruit_character = POL_stanislaw_mikolajczyk
+recruit_character = POL_gabriel_narutowicz
+recruit_character = POL_mieczyslaw_michalowicz
+recruit_character = POL_jozef_chacinski
+recruit_character = POL_adam_chadzynski
+recruit_character = POL_eustachy_sapieha
+recruit_character = POL_wladyslaw_grabski
+recruit_character = POL_wojciech_korfanty
+recruit_character = POL_roman_dmowski
+recruit_character = POL_adam_doboszynski
+
+### Advisors ###
+recruit_character = POL_antoni_ponikowski
+activate_advisor = POL_antoni_ponikowski_sic
+recruit_character = POL_wladyslaw_studnicki
+recruit_character = POL_maksymilian_malinowski
+recruit_character = POL_stanislaw_dubois
+recruit_character = POL_tadeusz_bielecki
+recruit_character = POL_pawel_lew_marek
+recruit_character = POL_stanislaw_bukowiecki
+recruit_character = POL_boguslaw_miedzinski
+recruit_character = POL_the_sejm_sic
+recruit_character = POL_maurucy_zamoyski
+recruit_character = POL_janusz_radziwill
+recruit_character = POL_stanislaw_downarowicz
+recruit_character = POL_wolfgang_von_kries
+recruit_character = POL_alexander_von_hohenzollern
+recruit_character = POL_august_hlond
+recruit_character = POL_wieslaw_gerlicz
+recruit_character = POL_andrzej_wierbicki
+recruit_character = POL_marian_dabrowski
+recruit_character = POL_michal_kalecki
+recruit_character = POL_cezaria_jedrzejewiczowa
+recruit_character = POL_wanda_wasilewska
+recruit_character = POL_stanislawa_paleolog
+recruit_character = POL_henryk_ehrlich
+recruit_character = POL_tadeusz_schaetzel
+recruit_character = POL_jozef_zajac
+recruit_character = POL_ludomil_rayski
+recruit_character = POL_edmund_knoll_kownacki
+recruit_character = POL_stefan_rowecki
+recruit_character = POL_ludwik_skrzynski
+recruit_character = pol_mieczyslaw_smorawinski
+recruit_character = POL_tadeusz_kossakowski
+recruit_character = POL_stefan_adolf_mossor
+recruit_character = POL_mieczyslaw_rawicz_myslowski
+recruit_character = POL_wiktor_thommee
+recruit_character = POL_mieczyslaw_dabkowski
+recruit_character = POL_edward_szystowski
+recruit_character = POL_witold_urbanowicz
+recruit_character = POL_janusz_de_beaurain
+recruit_character = POL_xawery_czernicki
+recruit_character = POL_janusz_groszkowski
+recruit_character = POL_ludwik_hirszfeld
+recruit_character = POL_zygmunt_pulawski
+recruit_character = POL_stanislaw_karlowski
+recruit_character = POL_aleksy_cwiakowski
+
+#Field Marshals
+recruit_character = POL_jozef_dowbor_musnicki
+
+#Generals
+recruit_character = POL_jozef_haller_von_hallenburg
+recruit_character = POL_edward_rydz_smigly
+recruit_character = POL_adam_koc
+recruit_character = POL_konstanty_rokossowski
+recruit_character = POL_leon_berbecki
+recruit_character = POL_kazimierz_sosnkowski
+recruit_character = POL_zbigniew_antonowicz
+recruit_character = POL_stanislaw_sosabowski
+recruit_character = POL_mikolaj_boltuc
+recruit_character = POL_wladyslaw_anders
+recruit_character = POL_henryk_dobrzanski
+recruit_character = POL_juliusz_rommel
+recruit_character = POL_waclaw_stachiewicz
+recruit_character = POL_stanislaw_magnuszewski
+recruit_character = POL_antoni_szylling
+recruit_character = POL_boleslaw_wieniawa_dlugoszowski
+
+#Admirals
+recruit_character = POL_jozef_unrug
+
+### Character Setup ###
+POL_august_iv = {
+	set_character_flag = is_monarch
+	set_character_flag = POL_geheimrat
+}
+POL_alexander_von_hohenzollern = { set_character_flag = is_monarch }
+POL_edward_rydz_smigly = { retire = yes } #Not in the army initially
+POL_konstanty_rokossowski = { set_nationality = FRA }
+POL_jozef_unrug = { retire = yes }
+
+### Integration ###
+ROOT = {
+	67 = { enable_state_integration_50_compliance = yes } #Upper Silesia
+	86 = { enable_state_integration_50_compliance = yes } #Poznan
+	88 = { enable_state_integration_50_compliance = yes } #Krakow
+	89 = { enable_state_integration_50_compliance = yes } #Stanislawow
+	91 = { enable_state_integration_50_compliance = yes } #Lwów
+	93 = { enable_state_integration_50_compliance = yes } #Brzesc
+	94 = { enable_state_integration_50_compliance = yes } #Wolkowysk
+	96 = { enable_state_integration_50_compliance = yes } #Wilno
+	97 = { enable_state_integration_50_compliance = yes } #Bialystok
+	776 = { enable_state_integration_50_compliance = yes } #Gdansk
+	777 = { enable_state_integration_50_compliance = yes } #Masuria
+	924 = { enable_state_integration_50_compliance = yes } #Tesin
+}
+
+### Operatives ###
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = "Krystyna Skarbek"
+		GFX = GFX_portrait_kr_krystyna_skarbek
+		traits = {
+			operative_escape_artist
+			operative_infiltrator
+		}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+}

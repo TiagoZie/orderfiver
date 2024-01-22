@@ -1,0 +1,1617 @@
+### Mittelafrika
+characters = {
+   ### Country Leaders ###
+	MAF_Karl_Ritter = {
+		name = MAF_Karl_Ritter
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF/MAF_Karl_Ritter.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			desc = MAF_Karl_Ritter_leader_desc
+		}
+	}
+
+	MAF_Georg_Kraut = {
+		name = MAF_Georg_Kraut
+		portraits = {
+			army = {
+				large = "gfx/leaders/Africa/MAF/MAF_Georg_Kraut.png"
+				small = "gfx/interface/advisors/MAF/MAF_Georg_Kraut.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			desc = MAF_Georg_Kraut_leader_desc
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAF_Georg_Kraut
+			traits = { KR_army_chief_defensive_2 }
+			cost = 100
+		}
+		field_marshal = {
+			traits = {
+				war_hero
+				media_personality
+				desert_fox
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAF_Ernst_Juenger = {
+		name = MAF_Ernst_Juenger
+		portraits = {
+			army = {
+				large = "gfx/leaders/Africa/MAF/MAF_Ernst_Junger.png"
+				small = "gfx/interface/advisors/MAF/MAF_Ernst_Juenger.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			desc = MAF_Ernst_Juenger_leader_desc
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAF_Ernst_Juenger
+			ledger = army
+			traits = { KR_military_theorist }
+			cost = 100
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				infantry_officer
+				trait_engineer
+				fortress_buster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	MAF_Fritz_Kolbe = {
+		name = MAF_Fritz_Kolbe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF/MAF_Fritz_Kolbe.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			desc = MAF_Fritz_Kolbe_leader_desc
+		}
+	}
+
+	MAF_Rudolf_Asmis = {
+		name = MAF_Rudolf_Asmis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF/MAF_Rudolf_Asmis.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			desc = MAF_Rudolf_Asmis_leader_desc
+		}
+	}
+
+   ### Corps Commanders ###
+	MAF_Hermann_Meyer_Rabingen = {
+		name = MAF_Hermann_Meyer_Rabingen
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Hermann_Meyer_Rabingen.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Hermann_Meyer_Rabingen.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				trickster
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	MAF_Adolf_von_Duisburg = {
+		name = MAF_Adolf_von_Duisburg
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Adolf_von_Duisburg.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Adolf_von_Duisburg.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	MAF_Theodor_von_Hippel = {
+		name = MAF_Theodor_von_Hippel
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Theodor_von_Hippel.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Theodor_von_Hippel.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Theodor_von_Hippel
+			ledger = army
+			traits = { KR_MHC_commando_2 }
+			cost = 100
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				war_hero
+				trickster
+				commando
+				camouflage_expert
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAF_Alfred_von_Randow = {
+		name = MAF_Alfred_von_Randow
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Alfred_von_Randow.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Alfred_von_Randow.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				harsh_leader
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAF_Hans_Suren = {
+		name = MAF_Hans_Suren
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Hans_Suren.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Hans_Suren.png"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAF_Hans_Suren
+			traits = { KR_army_chief_entrenchment_2 }
+			cost = 100
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				jungle_rat
+				trickster
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	MAF_Ferdinand_Schoerner = {
+		name = MAF_Ferdinand_Schoerner
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Ferdinand_Schoerner.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Ferdinand_Schorner.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Ferdinand_Schoerner
+			ledger = army
+			traits = { KR_MHC_concealment_1 }
+			cost = 50
+		}
+		corps_commander = {
+			traits = { harsh_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	MAF_Adolf_Heusinger = {
+		name = MAF_Adolf_Heusinger
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Adolf_Heusinger.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Adolf_Heusinger.png"
+			}
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	MAF_Heinrich_Kirchheim = {
+		name = MAF_Heinrich_Kirchheim
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Heinrich_Kirchheim.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Heinrich_Kircheim.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Heinrich_Kirchheim
+			ledger = army
+			traits = { KR_MHC_CombinedArms_2 }
+			cost = 100
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				organizer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
+	MAF_Hans_Hollaender = {
+		name = MAF_Hans_Hollaender
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Hans_Hollaender.png"
+				large = "gfx/leaders/Africa/MAF/MAF_Hans_Hollaender.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+				scavenger
+				old_guard
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+   ### Navy Commanders ###
+	MAF_Max_von_Looff = {
+		name = MAF_Max_von_Looff
+		portraits = {
+			navy = {
+				large = "gfx/leaders/Africa/MAF/MAF_Max_Looff.png"
+				small = "gfx/interface/advisors/MAF/MAF_Max_von_Looff.png"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MAF_Max_von_Looff
+			traits = { KR_navy_chief_manoeuvre_1 }
+			cost = 50
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	MAF_Ernst_Felix_Krueder = {
+		name = MAF_Ernst_Felix_Krueder
+		portraits = {
+			navy = {
+				large = "gfx/leaders/Africa/MAF/MAF_Ernst_Felix_Krueder.png"
+				small = "gfx/interface/advisors/MAF/MAF_Ernst_Felix_Krueder.png"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAF_Ernst_Felix_Krueder_theorist
+			ledger = navy
+			available = {
+				not_already_hired_except_as = theorist
+			}
+			traits = { KR_naval_theorist }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Ernst_Felix_Krueder_high_command
+			ledger = navy
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { KR_MHC_screen_1 }
+			cost = 50
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+
+   ### Advisors ###
+	MAF_Reichskolonialamt = {
+		name = MAF_Reichskolonialamt
+		portraits = {
+			civilian = {
+				small = GFX_idea_GER_Reichsamt_idea
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = MAF_Reichskolonialamt_sic
+			traits = { MAF_reichskolonialamt_sic }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+
+	MAF_Friedrich_Kegel = {
+		name = MAF_Friedrich_Kegel
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/MAF/MAF_Friedrich_Kegel.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAF_Friedrich_Kegel
+			traits = { KR_railway_magnate }
+		}
+	}
+
+	MAF_Alfred_Zintgraff = {
+		name = MAF_Alfred_Zintgraff
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/MAF/MAF_Alfred_Zintgraff.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAF_Alfred_Zintgraff
+			traits = { KR_media_magnate }
+		}
+	}
+
+	MAF_Erich_Groener = {
+		name = MAF_Erich_Groener
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/MAF/MAF_Erich_Groener.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAF_Erich_Groener
+			traits = { KR_shipping_magnate }
+		}
+	}
+
+	MAF_Jan_Cornelius_van_Sambeek = {
+		name = MAF_Jan_Cornelius_van_Sambeek
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/MAF/MAF_Jan_Cornelius_van_Sambeek.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAF_Jan_Cornelius_van_Sambeek
+			traits = { KR_education_reformer }
+		}
+	}
+
+	MAF_Max_von_Schenckendorff = {
+		name = MAF_Max_von_Schenckendorff
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/MAF/MAF_Max_von_Schenckendorff.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAF_Max_von_Schenckendorff
+			allowed = {
+				has_dlc_lar = yes
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = { KR_head_of_intelligence }
+		}
+	}
+
+	## AIR ##
+	MAF_Hellmuth_Felmy = {
+		name = MAF_Hellmuth_Felmy
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Hellmuth_Felmy.png"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAF_Hellmuth_Felmy_theorist
+			ledger = air
+			available = {
+				not_already_hired_except_as = theorist
+			}
+			traits = { KR_dive_bomber }
+			cost = 100
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MAF_Hellmuth_Felmy_air_chief
+			available = {
+				not_already_hired_except_as = air_chief
+			}
+			traits = { KR_air_chief_ground_support_2 }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Hellmuth_Felmy_high_command
+			ledger = air
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { KR_MHC_tactical_bombing_2 }
+			cost = 100
+		}
+	}
+
+	MAF_Ernst_Udet = {
+		name = MAF_Ernst_Udet
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Ernst_Udet.png"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MAF_Ernst_Udet_air_chief
+			available = {
+				not_already_hired_except_as = air_chief
+			}
+			traits = { KR_air_chief_pursuit_doctrine_2 }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Ernst_Udet_high_command
+			ledger = air
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { KR_MHC_air_combat_training_2 }
+			cost = 100
+		}
+	}
+
+	MAF_Ludwig_Bockholt = {
+		name = MAF_Ludwig_Bockholt
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/MAF/MAF_Ludwig_Bockholt.png"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MAF_Ludwig_Bockholt_air_chief
+			available = {
+				not_already_hired_except_as = air_chief
+			}
+			traits = { KR_air_chief_old_guard }
+			cost = 50
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Ludwig_Bockholt_high_command
+			ledger = air
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { KR_MHC_naval_strike_1 }
+			cost = 50
+		}
+	}
+}
+
+### Burundi
+characters = {
+   ### Country Leaders
+	BRD_Mwambutsa_IV = {
+		name = BRD_Mwambutsa_IV
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF_revolters/BRD_Mwambutsa_Fourth.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}
+
+### Barotseland
+characters = {
+   ### Country Leaders
+	BRT_Yeta_III = {
+		name = BRT_Yeta_III
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF_revolters/BRT_Yeta_III.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}
+
+### Ubangi-Shari
+characters = {
+   ### Country Leaders
+	CAR_Ben_Aissa = {
+		name = CAR_Ben_Aissa
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_land_new_2
+			}
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_new_2
+				small = GFX_Portrait_Arabia_Generic_land_new_2_small
+			}
+		}
+
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	CAR_Barthelemy_Boganda = {
+		name = CAR_Barthelemy_Boganda
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/CAR/CAR_Barthelemy_Boganda.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+}
+
+### Cameroon
+characters = {
+   ### Country Leaders
+	CMR_Karl_Atangana = {
+		name = CMR_Karl_Atangana
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/CMR/CMR_Atangana.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+
+	CMR_Alexander_Duala_Bell = {
+		name = CMR_Alexander_Duala_Bell
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/CMR/CMR_Alexandre_Douala_Bell.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+
+	CMR_Joseph_Bile = {
+		name = CMR_Joseph_Bile
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/CMR/CMR_Joseph_Bile.png"
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+}
+
+### Congo
+characters = {
+   ### Country Leaders
+	COG_Pedro_VIII_Afonso = {
+		name = COG_Pedro_VIII_Afonso
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Pedro_VII_Afonso.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+
+	COG_Simon_Kimbangu = {
+		name = COG_Simon_Kimbangu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Simon_Kimbangu.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+		}
+	}
+
+	COG_Andre_Matsoua = {
+		name = COG_Andre_Matsoua
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Andre_Matsoua.png"
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+
+	COG_Felix_Tchicaya = {
+		name = COG_Felix_Tchicaya
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Felix_Tchicaya.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	COG_Paul_Farnana = {
+		name = COG_Paul_Farnana
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Paul_Farnana.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+	}
+
+	COG_Jean_Bolikango = {
+		name = COG_Jean_Bolikango
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Jean_Bolikango.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+
+	COG_Daniel_Kanza = {
+		name = COG_Daniel_Kanza
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/COG/COG_Daniel_Kanza.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+}
+
+### Dahomey
+characters = {
+   ### Country Leaders
+	DAH_Christophe_Soglo = {
+		name = DAH_Christophe_Soglo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/DAH/DAH_Soglo.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+
+	DAH_Agoli_Agbo = {
+		name = DAH_Agoli_Agbo
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_land_new_5_small
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = DAH_Agoli_Agbo_sic
+			traits = { KR_respected_war_hero_sic }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+
+	DAH_Hubert_Maga = {
+		name = DAH_Hubert_Maga
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/DAH/DAH_Hubert_Maga.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+
+	DAH_Sourou_Migan_M_J_Apithy = {
+		name = DAH_Sourou_Migan_M_J_Apithy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/DAH/DAH_Apithy.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+
+	DAH_Basile_Adjou_Moumouni = {
+		name = DAH_Basile_Adjou_Moumouni
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/DAH/DAH_Soglo.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	DAH_Justin_Ahomadegbe_Tometin = {
+		name = DAH_Justin_Ahomadegbe_Tometin
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_land_new_3
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+}
+
+### Gabon
+characters = {
+   ### Country Leaders
+	GAB_Charles_NTchorere = {
+		name = GAB_Charles_NTchorere
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/GAB/GAB_Tchorere.png"
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+
+	GAB_Gabriel_Leon_Mba = {
+		name = GAB_Gabriel_Leon_Mba
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/GAB/GAB_Leon.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+}
+
+### Hausaland
+characters = {
+   ### Country Leaders
+	HAU_Malam_Jafar_ibn_Ishaq = {
+		name = HAU_Malam_Jafar_ibn_Ishaq
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF_revolters/HAU_ishaq.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+	HAU_Siddiq_Abubakar_III = {
+		name = HAU_Siddiq_Abubakar_III
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_2
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+		}
+	}
+}
+
+### Ivory Coast
+characters = {
+   ### Country Leaders
+	IVO_Felix_Houphouet_Boigny = {
+		name = IVO_Felix_Houphouet_Boigny
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/IVO/IVO_Felix_Houphouet_Boigny.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+}
+
+### Kenya
+characters = {
+   ### Country Leaders
+	KEN_Stanley_Mathenge = {
+		name = KEN_Stanley_Mathenge
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KEN/KEN_Mathenge.png"
+			}
+		}
+	}
+
+	KEN_Thomas_Cholmondeley = {
+		name = KEN_Thomas_Cholmondeley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KEN/KEN_Thomas_Cholmondeley.png"
+			}
+		}
+	}
+
+	KEN_Philip_Euen_Mitchell = {
+		name = KEN_Philip_Euen_Mitchell
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KEN/KEN_Philip_Euen_Mitchell.png"
+			}
+		}
+	}
+
+	KEN_Jomo_Kenyatta = {
+		name = KEN_Jomo_Kenyatta
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KEN/KEN_Jomo_Kenyatta.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	KEN_Harry_Thuku = {
+		name = KEN_Harry_Thuku
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KEN/KEN_Harry_Thuku.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+
+	KEN_Ewart_Grogan = {
+		name = KEN_Ewart_Grogan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KEN/KEN_Ewart_Grogan.png"
+			}
+		}
+	}
+}
+
+### Katanga
+characters = {
+   ### Country Leaders
+	KTG_Kitanika_Mabumba_Mushalila = {
+		name = KTG_Kitanika_Mabumba_Mushalila
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KTG/KTG_Mabumba_Kitanika.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	KTG_Pierre_Ryckmans = {
+		name = KTG_Pierre_Ryckmans
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KTG/KTG_Pierre_Ryckmans.png"
+			}
+		}
+	}
+
+	KTG_Jules_Cousin = {
+		name = KTG_Jules_Cousin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/KTG/KTG_Jules_Cousin.png"
+			}
+		}
+	}
+
+   ### Field Marshals
+	KTG_Charles_Tombeur = {
+		name = KTG_Charles_Tombeur
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/KTG/KTG_Charles_Tombeur.png"
+				large = "gfx/leaders/Africa/MAF_revolters/KTG_Charles_Tombeur.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				logistics_wizard
+				old_guard
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+   ### Corps Commanders
+	KTG_Armand_Huyghe = {
+		name = KTG_Armand_Huyghe
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/KTG/KTG_Armand_Huyghe.png"
+				large = "gfx/leaders/Africa/MAF_revolters/KTG_Armand_Christophe_Huyghe.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				jungle_rat
+				old_guard
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+}
+
+### Madagascar
+characters = {
+   ### Country Leaders
+	MAD_marie_louise_razinkeriefo = {
+		name = MAD_marie_louise_razinkeriefo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAD/MAD_Portrait_Marie_Louise.png"
+			}
+		}
+		#roles added by effect
+	}
+}
+
+### Nigeria
+characters = {
+   ### Country Leaders
+	NGA_Benjamin_Nnamdi_Azikiwe = {
+		name = NGA_Benjamin_Nnamdi_Azikiwe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NGA/NGA_Benjamin_Azikiwe.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+
+	NGA_Humphrey_Chukwuka = {
+		name = NGA_Humphrey_Chukwuka
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_new_1
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+
+	NGA_Christopher_Earle_Welby_Everard = {
+		name = NGA_Christopher_Earle_Welby_Everard
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_new_2
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+
+	NGA_Obafemi_Awolowo = {
+		name = NGA_Obafemi_Awolowo
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_1
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+	}
+
+	NGA_Funmilayo_Ransome_Kuti = {
+		name = NGA_Funmilayo_Ransome_Kuti
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_2
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+
+	NGA_Francis_Akanu_Ibiam = {
+		name = NGA_Francis_Akanu_Ibiam
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_1
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	NGA_Hezekiah_Oladipo_Davies = {
+		name = NGA_Hezekiah_Oladipo_Davies
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_2
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+
+	NGA_Michael_Athokhamien_Imoudu = {
+		name = NGA_Michael_Athokhamien_Imoudu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_1
+			}
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+	}
+
+	NGA_Samuel_Akisanya = {
+		name = NGA_Samuel_Akisanya
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_2
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+	}
+
+	NGA_Herbert_Richmond_Palmer = {
+		name = NGA_Herbert_Richmond_Palmer
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NGA/NGA_Herbert_Richmond_Palmer.png"
+			}
+		}
+	}
+
+	NGA_Edward_Twining = {
+		name = NGA_Edward_Twining
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NGA/NGA_Edward_Twinning.png"
+			}
+		}
+	}
+}
+
+### Nyasaland
+characters = {
+   ### Country Leaders
+	MLW_Flax_Katoba_Musopole = {
+		name = MLW_Flax_Katoba_Musopole
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_land_new_6
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+	}
+
+	MLW_Elliot_Kenan_Kamwana = {
+		name = MLW_Elliot_Kenan_Kamwana
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_5
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+
+	MLW_Charles_Domingo = {
+		name = MLW_Charles_Domingo
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_1
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	MLW_Levi_Zililo_Mumba = {
+		name = MLW_Levi_Zililo_Mumba
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_3
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+	}
+
+	MLW_Charles_Matinga = {
+		name = MLW_Charles_Matinga
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_new_6
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+	}
+
+	MLW_Hastings_Banda = {
+		name = MLW_Hastings_Banda
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MLW/MLW_Hastings_Banda.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+
+	MLW_James_Frederick_Sangala = {
+		name = MLW_James_Frederick_Sangala
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_navy_new_3
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+
+	MLW_George_Simeon_Mwase = {
+		name = MLW_George_Simeon_Mwase
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_land_new_7
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+		}
+	}
+}
+
+### Namibia
+characters = {
+   ### Country Leaders
+	NMB_Theophilus_Hamutumbangela = {
+		name = NMB_Theophilus_Hamutumbangela
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMB/NMB_Theophilus_Hamutumbangela.png"
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+	}
+
+	NMB_Otto_Schimming = {
+		name = NMB_Otto_Schimming
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMB/NMB_Otto_Schimming.png"
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+
+	NMB_Leonard_Auala = {
+		name = NMB_Leonard_Auala
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMB/NMB_Leonard_Auala.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+
+	NMB_Hosea_Kutako = {
+		name = NMB_Hosea_Kutako
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMB/NMB_Hosea_Kutako.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+
+	NMB_Gustav_Adolf_Schatz = {
+		name = NMB_Gustav_Adolf_Schatz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMB/NMB_Gutav_Adolf_Schatz.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+	}
+
+	NMB_Friedrich_Maharero = {
+		name = NMB_Friedrich_Maharero
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/NMB/NMB_Friedrich_Maharero.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+
+	NMB_Uushona_Shiimi = {
+		name = NMB_Uushona_Shiimi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_land_new_3
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}
+
+### Rwanda
+characters = {
+   ### Country Leaders
+	RWA_Yuhi_V = {
+		name = RWA_Yuhi_V
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF_revolters/RWA_Yuhi_V.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}
+
+### Tshuapa
+characters = {
+   ### Country Leaders
+	TKE_Justin_Kokolo = {
+		name = TKE_Justin_Kokolo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF_revolters/TKE_Justin_Kokolo.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}
+
+### Togoland
+characters = {
+   ### Country Leaders
+	TOG_Sylvanus_Olympio = {
+		name = TOG_Sylvanus_Olympio
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/TOG/TOG_Olympio.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+		}
+	}
+
+	TOG_Alhaji_Grunshi = {
+		name = TOG_Alhaji_Grunshi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/TOG/TOG_Alhaji.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+		}
+	}
+}
+
+### East Africa
+characters = {
+   ### Country Leaders
+	TZN_Muhamed_Husan = {
+		name = TZN_Muhamed_Husan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/TZN/TZN_Muhamed_Husan.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+}
+
+### Uganda
+characters = {
+   ### Country Leaders
+	UGA_Mutesa_II = {
+		name = UGA_Mutesa_II
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/UGA/UGA_Mutesa.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+
+	UGA_Ignatius_K_Musaazi = {
+		name = UGA_Ignatius_K_Musaazi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/UGA/UGA_Musaazi.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+
+	UGA_Andrew_Cohen = {
+		name = UGA_Andrew_Cohen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/UGA/UGA_Cohen.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+	}
+}
+
+### Zambesia
+characters = {
+   ### Country Leaders
+	ZAM_Kanyanta = {
+		name = ZAM_Kanyanta
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_German_Africa_Generic_land_5
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+
+	ZAM_Ronald_Storrs = {
+		name = ZAM_Ronald_Storrs
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Britain_Generic_land_2
+			}
+		}
+	}
+}
+
+### Zanzibar
+characters = {
+   ### Country Leaders
+	ZAN_Khalifa_II_bin_Harub_Al_Said = {
+		name = ZAN_Khalifa_II_bin_Harub_Al_Said
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/MAF_revolters/ZAN_Sultan_Khalifa.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+		}
+	}
+}
+
