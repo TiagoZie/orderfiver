@@ -57,7 +57,10 @@ if = {
 		early_bomber = 1
 	}
 }
-
+set_autonomy = {
+		target = DEI
+		autonomy_state = colonial_government
+	}
 ### Navy - MtG ###
 if = {
 	limit = { has_dlc_mtg = yes }

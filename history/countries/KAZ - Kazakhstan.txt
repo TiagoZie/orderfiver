@@ -1,8 +1,8 @@
-﻿capital = 579 #Salekhard
+﻿capital = 586 #Almaty
 
-#oob = "TAY_1936"
+oob = "KAZ_1936"
 
-set_research_slots = 2
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -13,7 +13,6 @@ set_technology = {
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
-	tech_trucks = 1
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
@@ -84,6 +83,7 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
 set_politics = {
 	ruling_party = radical_socialist
 	last_election = "1931.11.9"
@@ -104,6 +104,48 @@ set_popularities = {
 	national_populist = 0
 }
 
+create_country_leader = {
+	name = "Nikolay Aleksandrovich Skvortsov"
+	desc = ""
+	picture = GFX_portrait_Nikolay_Aleksandrovich_Skvortsov
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ilyas Zhansugurov"
+	desc = ""
+	picture = GFX_portrait_Ilyas_Zhansugurov
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+recruit_character = KAZ_awt
+recruit_character = KAZ_acd2
+recruit_character = KAZ_nt
+recruit_character = KAZ_aco2
+recruit_character = KAZ_acas
+recruit_character = KAZ_acr
+recruit_character = KAZ_mt
+recruit_character = KAZ_stc
+recruit_character = KAZ_aa2
+recruit_character = KAZ_ncm
+recruit_character = KAZ_communist_guy
+recruit_character = KAZ_ncs
+recruit_character = KAZ_pot
+recruit_character = KAZ_nccr
+recruit_character = KAZ_fascist_guy
+recruit_character = KAZ_coi
+recruit_character = KAZ_ai2
+recruit_character = KAZ_democratic_guy
+recruit_character = KAZ_ar
+recruit_character = KAZ_acgs
 
 
 

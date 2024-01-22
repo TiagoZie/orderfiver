@@ -28,51 +28,51 @@ if = {
 }
 set_autonomy = {
 		target = YAM
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = BLR
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = UKR
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = GEO
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = ARM
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = AZR
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = KAZ
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = TMS
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = UZB
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = KYR
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = TAJ
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 set_autonomy = {
 		target = TAN
-		autonomy_state = special_autonomous_dependency
+		autonomy_state = default_puppet
 	}
 #POLITICAL ADVISORS
 recruit_character = SOV_mikhail_kalinin
@@ -1279,7 +1279,7 @@ set_politics = {
 	ruling_party = radical_socialist
 	last_election = "1931.11.9"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

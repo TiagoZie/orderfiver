@@ -113,22 +113,23 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
-	last_election = "1932.11.30"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = radical_socialist
+	last_election = "1931.11.9"
+	election_frequency = 60
+	elections_allowed = no
 }
+
 set_popularities = {
-	totalist = 1
-	syndicalist = 10
-	radical_socialist = 9
-	social_democrat = 18
-	social_liberal = 13
-	market_liberal = 4
-	social_conservative = 5
-	authoritarian_democrat = 28
-	paternal_autocrat = 7
-	national_populist = 5
+	totalist = 0
+	radical_socialist = 90
+	syndicalist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 10
+	paternal_autocrat = 0
+	national_populist = 0
 }
 
  ### Laws ###

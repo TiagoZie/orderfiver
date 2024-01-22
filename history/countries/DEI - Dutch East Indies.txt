@@ -18,12 +18,7 @@ set_convoys = 250
 
 add_offsite_building = { type = arms_factory level = 2 }
 
-HOL = {
-	set_autonomy = {
-		target = DEI
-		autonomy_state = colonial_government
-	}
-}
+
 
 ### Starting Technologies ###, clone of Holland
 set_technology = {

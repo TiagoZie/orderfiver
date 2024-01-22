@@ -16,7 +16,38 @@ add_command_power = 20
 		target = WIF
 		autonomy_state = crownland
 	}
-
+	set_autonomy = {
+		target = EGY
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = MAL
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = CAN
+		autonomy_state = autonomous_puppet
+	}
+	set_autonomy = {
+		target = AST
+		autonomy_state = autonomous_puppet
+	}
+	set_autonomy = {
+		target = NZL
+		autonomy_state = autonomous_puppet
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomy_state = autonomous_puppet
+	}
+	set_autonomy = {
+		target = SAF
+		autonomy_state = autonomous_puppet
+	}
+	set_autonomy = {
+		target = UAE
+		autonomy_state = crownland
+	}
 ### Starting Technologies ###
 set_technology = {
 	### Infantry ###

@@ -17,22 +17,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1933.11.16"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = radical_socialist
+	last_election = "1931.11.9"
+	election_frequency = 60
+	elections_allowed = no
 }
+
 set_popularities = {
-	totalist = 1
+	totalist = 0
+	radical_socialist = 90
 	syndicalist = 0
-	radical_socialist = 7
-	social_democrat = 20
-	social_liberal = 16
-	market_liberal = 5
-	social_conservative = 32
-	authoritarian_democrat = 15
-	paternal_autocrat = 4
-	national_populist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	national_populist = 10
 }
 
 ### Relations ###
