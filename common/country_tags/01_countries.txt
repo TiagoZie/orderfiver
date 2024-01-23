@@ -1,3 +1,8 @@
 
 INC = "countries/Asian.txt"
 WIF = "countries/African.txt" #Amadawa
+SAA = "countries/WestEur.txt" #Amadawa
+FWA = "countries/African.txt"
+FEA = "countries/African.txt"
+FNA = "countries/African.txt"
+SMO = "countries/African.txt"

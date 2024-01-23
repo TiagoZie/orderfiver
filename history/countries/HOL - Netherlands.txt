@@ -58,7 +58,7 @@ if = {
 	}
 }
 set_autonomy = {
-		target = DEI
+		target = INS
 		autonomy_state = colonial_government
 	}
 ### Navy - MtG ###

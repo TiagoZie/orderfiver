@@ -9,15 +9,44 @@ starting_train_buffer = 4
 set_fuel_ratio = 0.8
 add_command_power = 20
 
-
-
-
 	set_autonomy = {
 		target = WIF
 		autonomy_state = crownland
 	}
 	set_autonomy = {
+		target = ZAM
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = PAL
+		autonomy_state = crownland
+	}
+	set_autonomy = {
 		target = EGY
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = MAL
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = ZIM
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = UGA
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = MLW
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = BOT
+		autonomy_state = crownland
+	}
+	set_autonomy = {
+		target = TZN
 		autonomy_state = crownland
 	}
 	set_autonomy = {

@@ -14,6 +14,34 @@ set_autonomy = {
 		autonomy_state = french_colonial_government
 	}
 
+set_autonomy = {
+		target = FNA
+		autonomy_state = french_colonial_government
+	}
+set_autonomy = {
+		target = MAD
+		autonomy_state = french_colonial_government
+	}
+set_autonomy = {
+		target = SYR
+		autonomy_state = french_colonial_government
+	}
+set_autonomy = {
+		target = LEB
+		autonomy_state = french_colonial_government
+	}
+set_autonomy = {
+		target = FWA
+		autonomy_state = french_colonial_government
+	}
+set_autonomy = {
+		target = FEA
+		autonomy_state = french_colonial_government
+	}
+set_autonomy = {
+		target = SAA
+		autonomy_state = occupied_puppet
+	}
 ### Starting Technologies ###
 set_technology = {
 	### Industry ###
@@ -161,17 +189,17 @@ if = {
 
 ### Politics ###
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = social_liberal
 	last_election = "1932.5.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	totalist = 12
-	radical_socialist = 6
-	syndicalist = 52
-	social_democrat = 28
-	social_liberal = 2
+	totalist = 10
+	radical_socialist = 10
+	syndicalist = 10
+	social_democrat = 20
+	social_liberal = 50
 	market_liberal = 0
 	social_conservative = 0
 	authoritarian_democrat = 0

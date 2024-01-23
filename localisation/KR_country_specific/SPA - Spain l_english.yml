@@ -1,7 +1,9 @@
 ﻿l_english:
 
  SPA_focus: "Kingdom of Spain Focus Tree"
-
+ SMO: "Spanish Morroco"
+ SMO_ADJ: "Spanish"
+ SMO_DEF: "Spanish Morroco"
 ### Parties ###
  SPA_totalist_party: "POUM"
  SPA_totalist_party_long: "Partido Obrero de Unificación Marxista (Workers' Party of Marxist Unification)"

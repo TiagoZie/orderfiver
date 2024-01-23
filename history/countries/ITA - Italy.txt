@@ -6,7 +6,10 @@ set_convoys = 20
 set_stability = 0.6
 set_war_support = 0.2
 starting_train_buffer = 1
-
+set_autonomy = {
+		target = AOI
+		autonomy_state = occupied_puppet
+	}
 ### Starting Technologies ###
 set_technology = {
 	### Infantry ###

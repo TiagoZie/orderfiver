@@ -3,7 +3,27 @@ WIF = {
 	color = rgb { 50 12 175 }
 	color_ui = rgb { 50 12 175 }
 }
+FEA = {
+	color = rgb { 50 12 175 }
+	color_ui = rgb { 50 12 175 }
+}
+FWA = {
+	color = rgb { 36 132 247 }
+	color_ui = rgb { 47 172 255 }
+}
 INC = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
+}
+FNA = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
+}
+SMO = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
+}
+SAA = {
 	color = rgb { 51 153 255 }
 	color_ui = rgb { 51 153 255 }
 }

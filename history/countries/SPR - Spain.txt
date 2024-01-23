@@ -1,5 +1,8 @@
 ﻿capital = 41
-
+set_autonomy = {
+		target = SMO
+		autonomy_state = french_colonial_government
+	}
 oob = "SPR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
